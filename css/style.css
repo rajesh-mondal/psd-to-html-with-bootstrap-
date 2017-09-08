@@ -1,0 +1,242 @@
+/*Custom CSS File here*/
+
+.header_bg{
+    background-color: black;
+    min-height: 107px;
+}
+.new_nav_style{
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+.nav li a{
+    color: white !important;
+}
+.logo{
+    padding-top: 17px; 
+}
+.nav_bar{
+    padding-top: 25px; 
+}
+.header_bg_image{
+    background: url(../images/header_img.png) no-repeat;
+    min-height: 649px;
+    background-size: cover;
+    background-position: center center;
+}
+.header_caption{
+    margin: 185px auto;
+    width:41%; 
+}
+.header_caption h1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.header_caption .see_details{
+    color: white;
+    border: 0px;
+    background-color: black;
+    padding: 15px 50px;
+    float: right;
+    margin-top: 30px;
+}
+
+/* Slider CSS*/
+
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out left;
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+body {
+  background: #333;
+  color: #ddd;
+}
+
+.carousel{
+    background-color: white;
+}
+.white_bg{
+    background-color: white;
+    padding-top: 35px;
+}
+.remove_shadow{
+    background-image: none !important;
+}
+.remove_shadow i{
+    color: gray;
+    font-size: 300px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.feature_title{
+    text-align: center;
+}
+.feature_title h1{
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+}
+.feature_title p{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.feature_title p i{
+    color: black;
+    font-size: 50px;
+    font-weight: normal;
+}
+.achivement_bg{
+    background: url(../images/achivement.jpg) no-repeat;
+    min-height: 649px;
+    background-size: cover;
+    background-position: center center;
+}
+.achivement_description{
+    width: 40%;
+    position: relative;
+    left: 14%;
+    top: 170px;
+}
+.achivement_description h1{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.achivement_description p{
+    font-size: 14px;
+}
+.carousel{
+    padding-bottom: 150px; 
+}
+.my_thumbnail>a>img{width: 100%;}
+.my_thumbnail>p{
+    color: black;
+    padding-top: 10px;
+}
+.my_thumbnail{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.footer_bg{
+    background-color: black;
+    min-height: 393px;
+}
+.footer_title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.my_footer{
+    color: white;
+    margin-top: 80px;
+}
+
+.footer_list li>a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 13px;
+}
+li {
+    list-style-type: none;
+}
+ul, li {
+    padding: 4px;
+    margin: 0px;
+}
+.form-group {
+    margin-bottom: 14px;
+}
+.input-group {
+    position: relative;
+        display: table;
+    border-collapse: separate;
+}
+.input-group-btn {
+    position: relative;
+}
+.footer_content p {
+    margin: 33px;
+}
+
+.social p i {
+    font-size: 20px;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.footer_copyright_content {
+    margin-top: 30px;
+}
+.footer_copyright p {
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+    float: left;
+}
+.footer_country_flug li {
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+    float: right;
+}
+.footer_country_flug p {
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+    float: right;
+    margin-left: 5px;
+}
+
+.newsletter_bar{
+    margin-bottom: 20px;
+}
+.news_bar_btn {
+    border-radius: 0px;
+    outline: none;
+    background-color: #C7C7C7;
+}
+.news_bar {
+    border-radius: 0px;
+    outline-color: none;
+}

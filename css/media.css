@@ -1,0 +1,153 @@
+/*Custom Media CSS here*/
+
+/* Extra small devices */
+@media (max-width: 767px) { 
+.header_bg{
+    background-color: black;
+    min-height: 107px;
+}
+.new_nav_style{
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+.nav li a{
+    color: white !important;
+}
+.logo{
+    padding-top: 17px; 
+}
+.nav_bar{
+    padding-top: 25px; 
+}
+.header_bg_image{
+    background: url(../images/header_img_sm.png) no-repeat;
+    min-height: 649px;
+    background-size: cover;
+    background-position: center center;
+}
+.header_caption{
+    margin: 185px auto;
+    width:68%; 
+}
+.header_caption h1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.header_caption .see_details{
+    color: white;
+    border: 0px;
+    background-color: black;
+    padding: 15px 50px;
+    float: right;
+    margin-top: 30px;
+}
+.remove_shadow i{
+    color: gray;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.feature_title h1{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+}
+.achivement_description{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    top: 100px;
+}
+.achivement_description h1{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.achivement_description p{
+    font-size: 14px;
+}
+    
+    
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) { 
+.header_bg{
+    background-color: black;
+    min-height: 107px;
+}
+.new_nav_style{
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+.nav li a{
+    color: white !important;
+}
+.logo{
+    padding-top: 17px; 
+}
+.nav_bar{
+    padding-top: 25px; 
+}
+.header_bg_image{
+    background: url(../images/header_img_sm.png) no-repeat;
+    min-height: 649px;
+    background-size: cover;
+    background-position: center center;
+}
+.header_caption{
+    margin: 185px auto;
+    width:70%; 
+}
+.header_caption h1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+    }
+.header_caption .see_details{
+    color: white;
+    border: 0px;
+    background-color: black;
+    padding: 15px 50px;
+    float: right;
+    margin-top: 30px;
+    }
+.achivement_description{
+    width: 56%;
+    position: relative;
+    left: 6%;
+    top: 170px;
+}
+.achivement_description h1{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.achivement_description p{
+    font-size: 14px;
+}
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {  
+
+}
+
+/* Large devices */
+@media (min-width: 1200px) { 
+
+}
